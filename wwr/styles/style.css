@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@300&display=swap');
+
 div#content{
     max-width: 1600px;
     margin: 0 auto;
@@ -5,10 +7,19 @@ div#content{
 
 body {
     background-color: seashell;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 0;
 }
 
 header{
     background-color: #152238;
+    font-family: 'merriweather';
 }
 
 nav a:hover{
@@ -20,32 +31,63 @@ nav a {
     text-align: center;
     min-width: 120px;
     text-decoration: none;
-    color: white    
+    color: white;
+    padding: 35px;
 }
 
 .home-title{
     background-color: seashell;
     color: black;
+    font-size: 2em;
+    margin-top: 10px;
+   
 }
 
 h4{
     background-color: seashell;
     color: black;
+    
 }
 
-.book, .join{
+
+.book{
     text-decoration: none;
-    background-color: #fefae0;
-    color: #152238;
+    background-color: #152238;
+    color: seashell;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 2px solid seashell
 }
 
-.book:hover, .join:hover{
-    background-color: #ccc;
-    color: white
+.join{
+    text-decoration: none;
+    background-color: #152238;
+    color: seashell;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 2px solid seashell
+}
+
+.book:hover{
+    background-color: seashell;
+    color: #152238;
+    border: 2px solid #152238
+}
+
+.join:hover{
+    background-color: seashell;
+    color: #152238;
+
 }
 
 .msg{
     background-color: #152238;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2{
@@ -56,10 +98,13 @@ h4{
 .msg p{
     background-color: #152238;
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo{
@@ -76,6 +121,9 @@ h4{
 
 footer{
     background-color: grey;
+    padding: 25px 50px;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 
@@ -86,18 +134,23 @@ footer h3{
 
 footer a{
     text-decoration: none;
-    color:white
+    color:white;
 
 }
 
 footer a:hover{
-    color:#152238
+    color:#152238;
 
 }
 
 footer h3 a:hover{
     text-decoration: underline;
 }
+
+footer .social img{
+    padding-top: 15px;
+}
+
 .button-box{
     text-align: center;
 }
@@ -109,5 +162,31 @@ main section{
 #background{
     height: 725px;
     background-color: #cb9c7d;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin-top: 200px ;
+}
+
+.rapids-card{
+    margin-bottom:200px;
+}
+
+.card-img{
+    border: 5px solid grey;
+    border-radius: 20px;
+}
+
+.mountains{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+main section img{
+    box-sizing: border-box;
 }
 
