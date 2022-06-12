@@ -125,8 +125,8 @@ nav a:hover {
 
   grid-template-columns: repeat(8, 12%);
   grid-template-rows: 3em 1.5em 1.5em 3em;
-  grid-template-areas: ". . home home . ."
-    ". . . top . ."
+  grid-template-areas: ". . . home home . . ."
+    ". . . . top . . ."
     ". left left center1 center2 right right ."
     "page2 page2 . page4 page4 . page3 page3";
 }
