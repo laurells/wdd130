@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css?family=Helvetica|Lato');
 body{
     position: relative;
-    color: silver;
-    font-family: "Lato",Sans-serif;
+    color: #484848;
+    font-family: "Lato",Sans-serif, Helvetica;
     font-size: 25px;
     line-height: 31px;
     margin: 0;
@@ -38,7 +38,7 @@ div#content{
 
 
 header{
-    background-color: black;
+    background-color: #484848;
     font-family: 'Helvetica';
     display:grid;
     grid-template-columns: 100px auto;
@@ -85,7 +85,7 @@ header{
 .start:hover{
     background-color: white;
     color: #484848;
-    border: 2px solid #152238
+    border: 2px solid #484848
 }
 #contribution-msg{
     grid-column: 2 /3;
@@ -119,7 +119,7 @@ nav{
     justify-content: space-around;
 }
 nav a:hover{
-    background-color: black;
+    background-color: #484848;
     color: #fefae0;
 }
 nav a {
@@ -193,7 +193,7 @@ h2{
 .learn{
     display: inline-block;
     text-decoration: none;
-    background-color: #152238;
+    background-color: #484848;
     color: seashell;
     font-size: 18px;
     padding: 15px 30px;
@@ -207,8 +207,8 @@ h2{
 }
 .learn:hover{
     background-color: white;
-    color: #152238;
-    border: 2px solid #152238
+    color: #484848;
+    border: 2px solid #484848
 }
 h4{
     color: #152238;
