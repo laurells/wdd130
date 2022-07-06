@@ -21,7 +21,6 @@ div{
 }
 
 #content{
-    display: wrap;
     position: relative;
     
 }
@@ -180,9 +179,6 @@ h2{
     text-align: center;
     margin-top: 50px;
     margin: 0;
-    display: wrap
-    
-
 }
 .more h2{
     margin-top: 50px
@@ -216,7 +212,6 @@ h4{
     margin: 0;
     font-weight: 600;
     line-height: 1.5;
-    display: wrap;
     margin-block-start: 1.33em;
     margin-block-end: 1.33em;
     margin-inline-start: 0px;
@@ -236,7 +231,6 @@ p{
 
 }
 p{
-    display: wrap;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
