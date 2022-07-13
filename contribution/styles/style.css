@@ -264,8 +264,9 @@ footer{
     justify-content: space-around;
     align-items: center;
 }
-footer h3{
+footer h2{
     color:white;
+    font-size: 20px;
 
 }
 
@@ -280,7 +281,7 @@ footer a:hover{
 
 }
 
-footer h3 a:hover{
+footer h2 a:hover{
     text-decoration: underline;
 }
 
